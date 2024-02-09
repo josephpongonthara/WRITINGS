@@ -1,0 +1,44 @@
+/* styles.css */
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5dc; /* Beige color */
+}
+
+header {
+    background-color: #f5f5dc;
+    color: #333;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:hover {
+    transform: translateX(calc(-1em + 2em * var(--n))); /* Adjust the spacing as needed */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #333; /* Set link color */
+}
+
+footer {
+    background-color: #f5f5dc;
+    color: #333;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
