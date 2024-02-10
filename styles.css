@@ -31,7 +31,10 @@ nav ul li a {
     text-decoration: none; /* Remove underlines from links */
     color: #333; /* Set link color */
 }
-
+#footer{
+    display: none;
+}
+/*if I want to add a footer back
 footer {
     background-color: #f5f5dc;
     color: #333;
@@ -41,3 +44,4 @@ footer {
     bottom: 0;
     width: 100%;
 }
+*/
